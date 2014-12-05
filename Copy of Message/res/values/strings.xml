@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Text Mail</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Messages">m</string>
+
+    <color name="white">#FFFFFF</color>
+     <color name="black">#000000</color>
+    <color name="lightGray">#666666</color>
+    <color name="darkGray">#333333</color>
+    <color name="blue">#258CB9</color>	
+    <color name="lightBlue">#34A4D4</color>
+    
+    <color name="darkBlueGray">#4a4f66</color>
+    <color name="op1">#3f4152</color>
+    <color name="op2">#23242e</color>
+    <color name="op3">#16171e</color>
+    
+    
+    
+ 
+
+</resources>

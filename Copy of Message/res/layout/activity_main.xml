@@ -1,0 +1,357 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+    
+    
+    
+    
+    
+    
+     <LinearLayout
+            android:id="@+id/Entries"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <LinearLayout
+            android:id="@+id/vLayoutForMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5.35"
+            android:orientation="vertical" >
+            
+              
+              
+               <LinearLayout
+              android:orientation="vertical"
+              android:id="@+id/v1"
+          android:layout_width="match_parent"
+            android:layout_height="match_parent"
+              android:layout_weight="6"
+              android:gravity="center"
+    
+      
+              android:paddingTop="@dimen/activity_vertical_margin" >
+
+           
+          </LinearLayout>
+              
+              
+              
+         
+         
+         
+      <LinearLayout
+            android:id="@+id/hLayoutForMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25"
+            android:orientation="horizontal" >
+            
+          
+          
+          
+ <LinearLayout
+              android:orientation="vertical"
+              android:id="@+id/h1"
+          android:layout_width="match_parent"
+            android:layout_height="match_parent"
+              android:layout_weight="4"
+              android:gravity="center">
+
+           
+          </LinearLayout>
+          
+
+
+          <LinearLayout
+              android:id="@+id/EntryPlace"
+              android:orientation="vertical"
+          android:layout_width="match_parent"
+            android:layout_height="match_parent"
+              android:background="@color/darkBlueGray"
+              android:layout_weight=".85"
+              android:gravity="center"
+              android:hint="Enter your message"
+              android:layout_marginTop="25dip" >
+
+              
+               <AutoCompleteTextView
+        android:id="@+id/mmWhoNo"
+       android:background="@color/op1"
+      android:textColorHint="@color/white"
+      android:textColor="@color/white"
+        android:layout_width="250dip"
+        android:layout_height="35dip"
+        android:hint="To...." 
+        android:gravity="center">
+    </AutoCompleteTextView>
+
+    <EditText
+        android:id="@+id/Date"
+        android:gravity="center"
+        android:background="@color/op2"
+        android:layout_marginTop="10dip"
+        android:textColorHint="@color/white"
+         android:textColor="@color/white"
+        android:layout_width="250dip"
+        android:layout_height="35dip"
+        android:focusable="false"
+        android:hint="Enter the date " >
+    </EditText>
+
+    <EditText
+        android:id="@+id/Time"
+        android:gravity="center"
+        android:background="@color/op3"
+          android:layout_marginTop="10dip"
+          android:textColorHint="@color/white"
+           android:textColor="@color/white"
+        android:layout_width="250dip"
+        android:layout_height="35dip"
+        android:focusable="false"
+        android:hint="Enter the time" >
+    </EditText>
+    
+    
+              
+           
+          </LinearLayout>
+          
+          
+          
+          
+          
+           <LinearLayout
+              android:orientation="vertical"
+              android:id="@+id/Msage"
+          android:layout_width="match_parent"
+            android:layout_height="match_parent"
+         
+              android:layout_weight="4"
+              android:gravity="center"
+           
+ 
+              android:paddingTop="@dimen/activity_vertical_margin" >
+
+           
+          </LinearLayout>
+  
+
+    
+    
+    </LinearLayout>
+    
+      
+       <LinearLayout
+           android:id="@+id/v3"
+              android:orientation="vertical"
+          android:layout_width="match_parent"
+            android:layout_height="match_parent"
+              android:layout_weight="4"
+              android:gravity="center"
+    
+      
+              android:paddingTop="@dimen/activity_vertical_margin" >
+
+           
+          </LinearLayout>
+      
+      
+      </LinearLayout> <!-- This for vertical spacing of message -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </LinearLayout>
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     <LinearLayout
+            android:id="@+id/bottomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            android:background="@color/blue" >
+      <!--  android:background="@color/lightBlue" -->
+     
+     
+     
+         
+         
+          <LinearLayout
+            android:id="@+id/vLayoutForMeddage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5.35"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+            
+              
+              
+             <LinearLayout
+                 android:id="@+id/v1"
+              android:orientation="vertical"
+          android:layout_width="match_parent"
+            android:layout_height="match_parent"
+              android:layout_weight="7"
+              android:gravity="center"
+    
+      
+              android:paddingTop="@dimen/activity_vertical_margin" >
+
+           
+          </LinearLayout>
+              
+              
+              
+         
+         
+         
+      <LinearLayout
+            android:id="@+id/hLayoutForMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25"
+            android:orientation="horizontal" >
+<LinearLayout
+              android:orientation="vertical"
+              android:id="@+id/V1"
+          android:layout_width="match_parent"
+            android:layout_height="match_parent"
+              android:layout_weight="4"
+              android:gravity="center"
+    
+      
+              android:paddingTop="@dimen/activity_vertical_margin" >
+
+           
+          </LinearLayout>
+          <EditText
+              android:id="@+id/Message"
+          android:layout_width="match_parent"
+            android:layout_height="match_parent"
+              android:background="@color/white"
+              android:layout_weight=".85"
+              android:gravity="center"
+              android:hint="Enter your message"
+             
+              android:paddingTop="@dimen/activity_vertical_margin" >
+
+           
+          </EditText>
+          
+        <LinearLayout
+              android:orientation="vertical"
+              android:id="@+id/Msage"
+          android:layout_width="match_parent"
+            android:layout_height="match_parent"
+         
+              android:layout_weight="4"
+              android:gravity="center"
+           
+ 
+              android:paddingTop="@dimen/activity_vertical_margin" >
+
+           
+          </LinearLayout>
+  
+
+    
+    
+    </LinearLayout>
+    
+      
+    <LinearLayout
+              android:orientation="vertical"
+              android:id="@+id/Med"
+          android:layout_width="match_parent"
+            android:layout_height="match_parent"
+              android:layout_weight="6"
+              android:gravity="center"
+    
+      
+              android:paddingTop="@dimen/activity_vertical_margin" >
+
+           
+          </LinearLayout>
+      
+      
+      </LinearLayout> <!-- This for vertical spacing of message -->
+    
+      
+      
+      
+      
+      
+      
+        <Button
+        android:id="@+id/Send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Send" />
+      
+      
+      
+      
+      
+      
+     </LinearLayout>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+         
+      
+
+</LinearLayout>
